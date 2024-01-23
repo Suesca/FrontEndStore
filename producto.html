@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Mansalva&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalized.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1 class="contenedor__texto">
+            React JS
+        </h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>¿Eres un amante de React? ¿Te apasiona crear interfaces de usuario dinámicas y eficientes? Entonces,
+                    nuestra camiseta con diseño de React es la elección perfecta para ti. Este exclusivo diseño captura
+                    la esencia de React, el popular framework de JavaScript para la construcción de aplicaciones web
+                    modernas.
+                </p>
+                <p>
+                    Con colores vibrantes y un diseño elegante, esta camiseta muestra el icónico logo de React junto con
+                    elementos gráficos que representan la fluidez y la reactividad que caracterizan a esta biblioteca.
+                    Es más que una camiseta, es una declaración de tu dedicación al desarrollo web y tu dominio de
+                    React.
+                </p>
+                <p>
+                    Ya sea que estés trabajando en proyectos de front-end, creando componentes interactivos o
+                    simplemente disfrutando de la creación de aplicaciones web de alto rendimiento, esta camiseta te
+                    acompañará con estilo. Además, está fabricada con tejidos de alta calidad que garantizan comodidad y
+                    durabilidad.
+                </p>
+                <p>
+                    Demuestra tu pasión por React y marca la diferencia con esta camiseta única. Sé el centro de
+                    atención en conferencias, meetups o en tu lugar de trabajo, y haz que todos sepan que eres un
+                    desarrollador o desarrolladora que apuesta por React. ¡Añade esta camiseta a tu guardarropa y
+                    presume de tu amor por la programación web!
+                </p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option>
+                        <option>Pequeña</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+
+                    <input class="formulario__submit" type="submit" value="Agregar Al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2023.&#174</p>
+    </footer>
+</body>
+
+</html>
